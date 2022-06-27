@@ -1,0 +1,21 @@
+[gizmog8 language-benchmarks]$ ./fib_c && ./fib_nim && ./fib_go && time java fib_java && node fib_js.js && ruby fib_ruby.rb && python2 fib_py2.py && python3 fib_py3.py && python2 fib_py2nim.py && python3 fib_py3nim.py
+
+C       Computed fib(47)=2971215073 in 4.58 seconds
+Nim     Computed fib(47)=2971215073 in 4.63 seconds
+Java    Computed fib(47)=2971215073 in 7.74 seconds
+Go      Computed fib(47)=2971215073 in 10.94 seconds
+Java    Computed fib(47)=2971215073 in 7.74 seconds
+JS      Computed fib(47)=2971215073 in 21.384 seconds
+Ruby    Computed fib(47)=2971215073 in 191.57 seconds
+Python2 Computed fib(47)=2971215073 in 451.50 seconds
+Python3 Computed fib(47)=2971215073 in 504.55 seconds
+Py2+Nim Computed fib(47)=2971215073 in 4.64 seconds
+Py3+Nim Computed fib(47)=2971215073 in 4.65 seconds
+
+
+processor	: 15
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) CPU E5-2667 v3 @ 3.20GHz
+
